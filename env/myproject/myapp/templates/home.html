@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 20px auto;
+    background-color: #232323;
+    padding: 30px 15px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #04aa6d;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #cdcdcd;
+    transition: 0.5s;
+}
+
+.nav-list li{
+    list-style: none;
+    margin-right: 80px;
+}
+
+.nav-list a:hover{
+    color: red;
+}
+
+button{
+    margin-right: 10px;
+    border: none;
+    padding: 5px 8px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+<nav class="navbar">
+          <ul class="nav-list">
+            <li><a href="">Home</a></li>
+            <li><a href="login">Login</a></li>
+            <li><a href="register">Register</a></li>
+          </ul>
+
+          <div>
+           <!-- <button>Sign Up</button>
+            <button>Log In</button>--->
+          </div>
+      </nav>
+</body>
+</html>
